@@ -10,12 +10,6 @@ module.exports = {
   organizationName: 'habistack', // Usually your GitHub org/user name.
   projectName: 'public-web-blog', // Usually your repo name.
   themeConfig: {
-    gtag: {
-      trackingID: 'G-NEWEXH7W8C',
-    },
-    oribi: {
-      trackingID: 'XzcwMzAwMzkyNA',
-    },
     colorMode: {
       // "light" | "dark"
       defaultMode: 'dark',
@@ -70,14 +64,17 @@ module.exports = {
             {
               label: 'Getting Started',
               to: 'https://www.habistack.com/dashboard',
+              target: '_top',
             },
             {
               label: 'Pricing',
               to: 'https://www.habistack.com/pricing',
+              target: '_top',
             },
             {
               label: 'Support',
               to: 'https://www.habistack.com/docs/introduction/support',
+              target: '_top',
             },
           ],
         },
