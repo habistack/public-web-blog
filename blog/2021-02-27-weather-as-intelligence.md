@@ -9,4 +9,10 @@ hide_table_of_contents: true
 hide_title: true
 ---
 
-# The end of weather as news, the dawn of weather as intelligence
+When I took the job as CTO of Fathym, my knowledge of weather was scarce to say the least.  Save the ability 
+
+## The end of weather as news, the dawn of weather as intelligence
+
+<!--truncate-->
+
+### A brief history on weather
