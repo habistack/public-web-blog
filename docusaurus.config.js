@@ -1,13 +1,13 @@
 const path = require('path');
 
 module.exports = {
-  title: 'Fathym IoT Ensemble Beta',
-  tagline: 'Experience IoT in minutes | No credit card required',
-  url: 'https://www.iot-ensemble.com',
+  title: 'Fathym Habistack Beta',
+  tagline: 'Ground weather foecasts made easy.',
+  url: 'https://www.habistack.com',
   baseUrl: '/blog/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'iot-ensemble', // Usually your GitHub org/user name.
+  organizationName: 'habistack', // Usually your GitHub org/user name.
   projectName: 'public-web-blog', // Usually your repo name.
   themeConfig: {
     gtag: {
@@ -24,26 +24,26 @@ module.exports = {
       disableSwitch: true,
     },
     navbar: {
-      title: 'IoT Ensemble Beta',
+      title: 'Habistack Beta',
       logo: {
-        alt: 'IoT Ensemble',
+        alt: 'Habistack',
         src: 'img/Fathym-logo-white-01.png',
       },
       items: [
         {
-          href: 'https://www.iot-ensemble.com/',
+          href: 'https://www.habistack.com/',
           label: 'Home',
           position: 'left',
           target: '_top',
         },
         {
-          href: 'https://www.iot-ensemble.com/pricing',
+          href: 'https://www.habistack.com/pricing',
           label: 'Pricing',
           position: 'right',
           target: '_top',
         },
         {
-          href: 'https://www.iot-ensemble.com/docs',
+          href: 'https://www.habistack.com/docs',
           label: 'Docs',
           position: 'right',
           target: '_top',
@@ -54,7 +54,7 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://www.iot-ensemble.com/dashboard',
+          href: 'https://www.habistack.com/dashboard',
           label: 'Sign In',
           position: 'right',
           target: '_top',
@@ -69,15 +69,15 @@ module.exports = {
           items: [
             {
               label: 'Getting Started',
-              to: 'https://www.iot-ensemble.com/dashboard',
+              to: 'https://www.habistack.com/dashboard',
             },
             {
               label: 'Pricing',
-              to: 'https://www.iot-ensemble.com/pricing',
+              to: 'https://www.habistack.com/pricing',
             },
             {
               label: 'Support',
-              to: 'https://www.iot-ensemble.com/docs/introduction/support',
+              to: 'https://www.habistack.com/docs/introduction/support',
             },
           ],
         },
@@ -86,15 +86,15 @@ module.exports = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/iot-ensemble',
+              href: 'https://stackoverflow.com/questions/tagged/habistack',
             },
             //{
             //  label: 'Discord',
-            //  href: 'https://discordapp.com/invite/iot-ensemble',
+            //  href: 'https://discordapp.com/invite/habistack',
             //},
             {
               label: 'Twitter',
-              href: 'https://twitter.com/iotensemble',
+              href: 'https://twitter.com/habistack',
             },
           ],
         },
@@ -118,8 +118,8 @@ module.exports = {
         blog: {
           showReadingTime: true,
           routeBasePath: '/',
-          // The iot-ensemble website blog repo
-          // editUrl: 'https://github.com/iot-ensemble/public-web-blog/edit/master/website/blog/',
+          // The habistack website blog repo
+          // editUrl: 'https://github.com/habistack/public-web-blog/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
